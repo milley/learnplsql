@@ -1,5 +1,5 @@
 PROCEDURE pay_out_balance (
-	account_id_in IS account.id%TYPE)
+	account_id_in IN account.id%TYPE)
 IS
 	l_balance_remaining NUMBER;
 BEGIN
